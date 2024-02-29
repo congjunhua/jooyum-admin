@@ -1,0 +1,46 @@
+.demo {
+    margin-left: 256px;
+
+    background: #F5F5F5;
+
+    height: calc(100vh - 72px);
+
+    overflow: scroll;
+}
+
+h2 {
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+h4 {
+    margin: 12px 8px;
+}
+
+header {
+    background: white;
+
+    padding: 16px;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numberDot {
+    --size: 20px;
+    width: var(--size);
+    height: var(--size);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    color: white;
+    background: #4F8AFE;
+}

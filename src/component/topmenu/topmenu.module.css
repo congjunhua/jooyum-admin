@@ -1,0 +1,42 @@
+.menus {
+    display: flex;
+}
+
+.menu {
+    color: white;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+
+    padding: 16px;
+}
+.menu:hover span {
+    opacity: 1;
+    font-weight: 800;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 8px;
+
+    background: rgba(128, 128, 128, .3);
+}
+
+.name {
+    font-size: 14px;
+    margin-left: 8px;
+    opacity: .5;
+}
+
+.topmenuContainer svg {
+    opacity: .5;
+}

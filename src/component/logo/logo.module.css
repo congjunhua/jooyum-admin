@@ -1,0 +1,8 @@
+.logo {
+    padding: 24px 0 16px 24px;
+    font-weight: 800;
+
+    width: calc(256px - 24px);
+
+    color: grey;
+}
